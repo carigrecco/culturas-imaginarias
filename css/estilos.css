@@ -8,7 +8,7 @@
 */
 /*Estilos*/
 body{
-    background-color: rgba(130, 144, 156, 0.589);
+    background-color: rgba(159, 161, 163, 0.589);
     background-image: url(../assets/Fondo/Metallic\ Toad.jpg);
    background-repeat: no-repeat;
     background-position: center;
@@ -28,9 +28,9 @@ h1{
     font-size: 60 px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
-    color: rgb(116, 3, 9);
-    
+    color: rgb(61, 60, 60);
 }
+
 
 h2{
     text-align: center;
@@ -126,12 +126,30 @@ font-family: 'Times New Roman', Times, serif;
     grid-template-columns: repeat(5, 1fr);
     grid-row: repeat (6, 1fr) ;
     align-items: center; 
+    background-image: linear-gradient( to left, rgb(103, 103, 165), rgb(110, 122, 124) );
 }
 
-.navbar .Logo{
+.Logo{
     width: 200px;
     height: 200px;
     grid-column: 1/2;
+    animation-name: rotar_logo;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 3s;
+    animation-delay: 3s;
+}
+
+@keyframes rotar_logo {
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
 }
 
 .navbar .menu{
@@ -169,11 +187,12 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 /*footer*/
+
 .redes .fa-brands{
-   display: flex;
-   justify-content: center;
-   height: 200px;
-   font-size: medium;
+    display: inline-flex;
+    justify-content: center;
+    height: 300px;
+    font-size: large;
 }
 
 .piedepagina .derechos{
