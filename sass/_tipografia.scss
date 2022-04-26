@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2? family= Great+Vibes & family= Handlee & family= Style+Script & display=swap');
+
+$tipografia-p: 'Handlee', cursiva;
+$tamaño-fuente: 20px;
+$margen-espacio: 60px auto; 
+$tamaño-subtitulo: 30px; 
+
+
+.caja p {
+    text-align: center;
+    font-weight: 600;
+    font-family: "Times New Roman", Times, serif;
+    font-size: $tamaño-fuente;
+    padding: $margen-espacio;
+  }
+
+  .presentacion__parrafo {
+    font-family: "Times New Roman", Times, serif;
+    line-height: 20px;
+    margin-bottom: 15px;
+    font-size: $tamaño-fuente;
+    padding: $margen-espacio;
+  }
+
+  h2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #990033;
+    font-size: $tamaño-subtitulo;
+  }
