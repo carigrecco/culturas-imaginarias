@@ -1,0 +1,26 @@
+/*Declaracion de variables*/
+$espaciado-fotos: 40px auto;
+$relleno-fotos: 10px;
+$fondo-fotos: #ad9985;
+$color-titulo: #330066;
+
+.presentacion__imagen{
+width: 100%;
+text-align: center;
+margin: $espaciado-fotos;
+padding: $relleno-fotos;
+background: $fondo-fotos;
+border-radius: 5px;
+width: 100px;
+border-radius: 10px;
+box-shadow: 1px 1px 12px 0px rgba($color: #000000, $alpha: 1.0);
+}
+
+.presentacion__parrafo{
+    margin: 10px;
+    letter-spacing: 3px;
+    font-size: 24px;
+    color: $color-titulo;
+    font-weight: 500;
+    font-family: 'Courier New', Courier, monospace;
+}

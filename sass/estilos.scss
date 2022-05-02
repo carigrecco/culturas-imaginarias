@@ -1,5 +1,6 @@
 //Import
 @import "tipografia"; 
+@import "fotos";
 
 
 //Variables
@@ -246,3 +247,29 @@ font-family: 'Times New Roman', Times, serif;
 .piedepagina .derechos{
     font-size: 10px;
 }
+
+/*Regla Each*/
+$redes: (
+  instagram: #ccc,
+  whatsapp:  #aeaeae,
+  linkedin: #a4a4a4
+  );
+
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color;
+    }
+}
+
+/*Mixins*/
+@mixin crearbordes {
+    border: solid 1px black;
+    border-radius: 8px;
+    
+}
+.presentacion__imagen{
+    @include crearbordes();
+}
+
+/*Maps*/
+$encabezadoscolor: 

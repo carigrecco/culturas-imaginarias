@@ -1,0 +1,23 @@
+/*Declaracion de variables*/
+.presentacion__imagen {
+  width: 100%;
+  text-align: center;
+  margin: 40px auto;
+  padding: 10px;
+  background: #ad9985;
+  border-radius: 5px;
+  width: 100px;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 12px 0px black;
+          box-shadow: 1px 1px 12px 0px black;
+}
+
+.presentacion__parrafo {
+  margin: 10px;
+  letter-spacing: 3px;
+  font-size: 24px;
+  color: #330066;
+  font-weight: 500;
+  font-family: 'Courier New', Courier, monospace;
+}
+/*# sourceMappingURL=fotos.css.map */
