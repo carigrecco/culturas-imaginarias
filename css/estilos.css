@@ -80,8 +80,8 @@ h3 {
 .presentacion__imagen {
   width: 20%;
   border-radius: 20px;
-  position: relative;
-  left: 450px;
+  position:relative;
+  left: 510px; 
 }
 
 .presentacion__parrafo {
@@ -261,21 +261,40 @@ text-align: center;
   justify-content: center;
 }
 
+/*Fin de footer*/
 
-/*--Responsive home--*/
-@media screen and (max-width: 480px) {
+/*Mediaqueries*/
+
+@media screen and (max-width:480px) {
   .navbar {
     position: relative;
     width: auto;
   }
 }
-/*--Responsive mihistoria--*/
-@media screen and (min-width: 481px) and (max-width: 768px) {
+
+@media screen and (min-width:481px) and (max-width:768px) {
   .presentacion {
     display: inline-block;
   }
 }
 
+@media screen and (max-width:600px) {
+  .navbar-home{
+    position: relative;
+  }
+}
+
+@media (min-width:601px) and (max-width:900px) {
+  .navbar-home{
+    position: relative;
+  }
+}
+
+@media (min-width:901px) and (max-width:1024px){
+  .navbar-home{
+    position: relative;
+  }
+}
 
 .navbar .Identificacion {
   font-size: 20px;
